@@ -9,7 +9,7 @@ Simply create a user for the pool to run as, and log in to that user.
 Run this command
 
 ```
-git clone https://github.com/EasyX-Community/EasyNOMP.git ; cd EasyNOMP ; ./install.sh ;
+git clone https://github.com/MrChzl/EzNOMP.git ; cd EasyNOMP ; ./install.sh ;
 ```
 **Done!**
 
@@ -31,8 +31,8 @@ sudo systemctl enable ntp
 sudo systemctl start ntp
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 source ~/.bashrc
-nvm install v8.1.4
-nvm use v8.1.4
+nvm install v12.10.3
+nvm use v12.10.3
 npm update -g
 npm install -g pm2@latest
 npm install -g npm@latest
@@ -49,8 +49,8 @@ redis-cli FLUSHALL
 -------
 ### Install Pool
 ```
-git clone https://github.com/EasyX-Community/EasyNOMP.git
-cd BootNOMP
+git clone https://github.com/MrChzl/EzNOMP.git
+cd EzNOMP
 npm install
 npm update
 npm audit fix
