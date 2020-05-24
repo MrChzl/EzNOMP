@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "EasyNOMP Watching Logs..."
+echo "EzNOMP Watching Logs..."
 echo ""
 
 source ~/.bashrc

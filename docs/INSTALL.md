@@ -9,7 +9,7 @@ Simply create a user for the pool to run as, and log in to that user.
 Run this command
 
 ```
-git clone https://github.com/MrChzl/EzNOMP.git ; cd EasyNOMP ; ./install.sh ;
+git clone https://github.com/MrChzl/EzNOMP.git ; cd EzNOMP ; ./install.sh ;
 ```
 **Done!**
 
@@ -95,7 +95,7 @@ pm2 save
 -------
 ### Update Pool Source (should be done monthly at minimum)
 ```
-cd EasyNOMP
+cd EzNOMP
 git pull
 npm update -g
 npm --depth 9999 update

@@ -1,5 +1,5 @@
 var redis = require('redis');
-var Stratum = require('stratum-pool');
+var Stratum = require('cryptocurrency-stratum-pool');
 
 const loggerFactory = require('./logger.js');
 

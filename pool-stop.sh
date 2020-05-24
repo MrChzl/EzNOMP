@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "EasyNOMP Starting..."
+echo "EzNOMP Starting..."
 echo ""
 
 source ~/.bashrc

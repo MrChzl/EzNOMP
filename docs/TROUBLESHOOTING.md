@@ -4,7 +4,7 @@
 -------
 ## 1) Update Pool Source (should be done monthly at minimum)
 ```
-cd EasyNOMP
+cd EzNOMP
 git pull
 npm update -g
 npm --depth 9999 update

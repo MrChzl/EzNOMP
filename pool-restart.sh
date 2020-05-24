@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "EasyNOMP Restarting..."
+echo "EzNOMP Restarting..."
 echo ""
 
 source ~/.bashrc

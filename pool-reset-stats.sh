@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ""
-echo "EasyNOMP Stats Resetting..."
+echo "EzNOMP Stats Resetting..."
 echo ""
 
 source ~/.bashrc

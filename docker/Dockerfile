@@ -26,9 +26,9 @@ RUN pm2 init
 
 
 WORKDIR /opt/
-RUN git clone https://github.com/leshacat/EasyNOMP.git
+RUN git clone https://github.com/leshacat/EzNOMP.git
 
-WORKDIR /opt/EasyNOMP
+WORKDIR /opt/EzNOMP
 
 RUN npm install -g multi-hashing@latest
 RUN npm install

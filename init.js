@@ -14,7 +14,7 @@ var ProfitSwitch = require('./libs/profitSwitch.js');
 const loggerFactory = require('./libs/logger.js');
 const logger = loggerFactory.getLogger('init.js', 'system');
 
-var algos = require('stratum-pool/lib/algoProperties.js');
+var algos = require('cryptocurrency-stratum-pool/lib/algoProperties.js');
 
 JSON.minify = JSON.minify || require("node-json-minify");
 

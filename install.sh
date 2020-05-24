@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# This is the EasyNOMP install script.
-echo "EasyNOMP install script."
+# This is the EzNOMP install script.
+echo "EzNOMP install script."
 echo "Please do NOT run as root, run as the pool user!"
 
 echo "Installing... Please wait!"
@@ -35,9 +35,9 @@ npm update -g
 npm install -g pm2@latest
 npm install -g npm@latest
 
-git clone https://github.com/EasyX-Community/EasyNOMP.git $(pwd)/EasyNOMP
+git clone https://github.com/MrChzl/EzNOMP.git $(pwd)/EzNOMP
 
-cd EasyNOMP
+cd EzNOMP
 
 npm install
 
@@ -48,6 +48,6 @@ npm audit fix
 
 
 echo "Installation completed!"
-echo "Please resume installation at the EasyNOMP Wiki: https://github.com/EasyX-Community/EasyNOMP/wiki"
+echo "Please resume installation at the EzNOMP Wiki: https://github.com/MrChzl/EzNOMP/wiki"
 
 exit 0
